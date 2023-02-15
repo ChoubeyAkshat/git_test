@@ -1,0 +1,21 @@
+p {
+    font-size: larger;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+li {
+    font-size: large;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
