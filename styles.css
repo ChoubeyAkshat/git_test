@@ -7,26 +7,28 @@ p {
 }
 
 img {
-    height: auto;
+    height: 225px;
     width: 300px;
+    margin-top: 20px;
+    border: 3px solid grey;
 }
 
 body {
     background-color: black;
+    padding: 70px;
+    padding-top: 5px;
     color: white;
 }
 
 a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: 900;
 }
 
-.page {
-    padding: 70px;
-    padding-top: 5px;
+li {
+    font-size: larger;
 }
-
 
 .heading {
     text-align: center;
@@ -35,7 +37,6 @@ a {
 
 .heading.main {
     padding-top: 20px;
-    font-size: 50px;
 }
 
 .page.text {
@@ -43,5 +44,15 @@ a {
 }
 
 .ltext {
-    font-size: larger;
+    margin-top: 40px;
+    width: 725px;
+}
+
+.info {
+    display: flex;
+}
+
+.info div {
+    margin-left: 70px;
+    width: 350px;
 }
