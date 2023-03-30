@@ -1,5 +1,13 @@
 * {
     font-family: "Verdana","DejaVu Sans", sans-serif;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+body {
+    padding: 70px;
+    padding-top: 5px;
+    padding-right: 5px;
 }
 
 p {
@@ -13,17 +21,9 @@ img {
     border: 3px solid grey;
 }
 
-body {
-    background-color: black;
-    padding: 70px;
-    padding-top: 5px;
-    color: white;
-}
-
 a {
     text-decoration: none;
-    color: white;
-    font-weight: 900;
+    color: rgb(255, 255, 120);
 }
 
 li {
@@ -40,6 +40,8 @@ li {
 }
 
 .page.text {
+    margin-top: 40px;
+    padding-right: 70px;
     font-size: 22px;
 }
 
@@ -55,4 +57,27 @@ li {
 .info div {
     margin-left: 70px;
     width: 350px;
+}
+
+.container {
+    display:flex;
+    gap: 100px;
+    align-items: flex-start;
+}
+
+.container .sidebar {
+    margin-left: 75px;
+    margin-top: 50px;
+    font-size: larger;
+    padding-inline: 50px;
+    padding-block: 25px;
+    border-left: 2px solid grey;
+}
+
+.container .sidebar a {
+    display: block;
+}
+
+#homelink {
+    margin-bottom: 20px;
 }
